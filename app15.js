@@ -16,7 +16,7 @@ app.get('/', (req, res)=>{
 app.post('/', (req, res)=>{
     console.log(req.body);
     // some database call here
-    res.json({success: true})
+    res.json({success: true});
 });
 
 app.listen(3000);
