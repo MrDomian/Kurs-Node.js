@@ -8,7 +8,7 @@ fs.mkdir('tutorial',(err)=>{
         console.log(err);
     }
     else{
-        fs.writeFile('./tutorial/example.txt',"123",(err)=>{
+        fs.writeFile('./static/example.txt',"123",(err)=>{
             if(err){
                 console.log(err);
             }
@@ -20,7 +20,7 @@ fs.mkdir('tutorial',(err)=>{
 })
 
 // Delete folder with file
-fs.unlink('./tutorial/example.txt',(err)=>{
+fs.unlink('./static/example.txt',(err)=>{
     if(err){
         console.log(err);
     }

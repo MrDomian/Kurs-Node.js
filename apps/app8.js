@@ -1,7 +1,7 @@
 // Pipes and Pipe Chaining
 
 const fs = require('fs');
-const readStream = fs.createReadStream('./Tutorial.txt','utf-8');
+const readStream = fs.createReadStream('./static/example.txt','utf-8');
 const writeStream = fs.createWriteStream('./example2.txt.gz');
 
 const zlib = require('zlib');// Compressing files
